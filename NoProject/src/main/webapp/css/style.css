@@ -1,0 +1,252 @@
+#wm-container{
+
+}
+
+/*======公共======*/
+ul li{list-style-type: none}
+.active{
+    display: block;
+}
+.clearfx:after{
+    clear: both;content:"";display:block
+}
+.f_l{
+    float: left;
+}
+.f_r{
+    float: right;
+}
+
+/*****=========头部============****/
+#wm-header{
+    width: 100%;
+}
+.start{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.header-content{
+    background: url("../images/1.png") no-repeat top center;
+    height: 161px;
+}
+
+/*
+.header-ul li{
+    float: left;
+}
+*/
+
+.nav-content{
+    width: 100%;
+    background: #e5e5e5;
+    height:60px ;
+}
+.nav-content-ul-main{float: right;margin-right: 100px;}
+.nav-content-ul-main li{
+    position: relative;
+    float: left;
+    width: 117px;
+}
+.nav-content-ul-main li .nav-tx{
+    text-align: center;
+    border-right:1px solid #111111;
+    font-size: 14px;
+    margin-top: 23px;
+    line-height: 16px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+.bg-hover{
+    background: url(../images/liubian.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    height: 60px;
+    width: 80px;
+    top: 0;
+    left: 18px;
+    z-index: 1;
+    display: none;
+}
+li.active .bg-hover{
+    display: block;
+    animate-duration: 3s;   /*/动画持续时间*/
+    animate-delay: 1s;    /*动画延迟时间*/
+    animate-iteration-count: 1;    /*动画执行次数*/
+}
+li.active .nav-tx{
+    color: #fff;
+}
+/*
+li.li-index .nav-tx,
+*/
+li.li-last .nav-tx{
+    border:none;
+}
+
+
+/*============头部结束===========*/
+
+/*============中间start===========*/
+#wm-main{
+    min-width: 1100px;
+    margin: 0 auto;
+}
+#module1{
+    background: url("../images/module1.jpg") no-repeat top center;
+    height: 810px;
+}
+#module2{
+    background: url("../images/module2.jpg") no-repeat top center;
+    height: 716px;
+}
+.module2-jz{
+    margin: 0 auto;
+    height: 716px;
+    width: 1000px;
+    position: relative;
+    z-index: 5;
+}
+.wenhao1{
+    position: absolute;
+    cursor: pointer;
+    top: 385px;
+    left: 76px;
+}
+.wenhao2{
+    position: absolute;
+    cursor: pointer;
+    top: 385px;
+    left: 416px;
+}
+.wenhao3{
+    position: absolute;
+    cursor: pointer;
+    top: 385px;
+    right: 186px;
+}
+.wenhao4{
+    position: absolute;
+    cursor: pointer;
+    top: 385px;
+    right: -106px;
+}
+.module2-btn1 {
+    position: absolute;
+    cursor: pointer;
+    top: 510px;
+    left: 346px;
+}
+#module3{
+    background: url("../images/module3.jpg") no-repeat top center;
+    height: 787px;
+}
+#module4{
+    background: url("../images/module4.jpg") no-repeat top center;
+    height: 939px;
+}
+
+.module4-jz{
+    margin: 0 auto;
+    height: 939px;
+    width: 1000px;
+    position: relative;
+    z-index: 5;
+}
+.module4-how{
+    position: absolute;
+    cursor: pointer;
+    top: 220px;
+    left: 346px;
+}
+.module4-btn1 {
+    position: absolute;
+    cursor: pointer;
+    top: 740px;
+    left: 346px;
+}
+
+#module5{
+    background: url("../images/module5.jpg") no-repeat top center;
+    height: 773px;
+}
+
+.module5-jz{
+    margin: 0 auto;
+    height: 778px;
+    width: 1000px;
+    position: relative;
+    z-index: 5;
+}
+.module5-btn1 {
+    position: absolute;
+    cursor: pointer;
+    top: 570px;
+    left: 156px;
+}
+.module5-btn2 {
+    position: absolute;
+    cursor: pointer;
+    top: 570px;
+    right: 156px;
+}
+#module6{
+    background: url("../images/module6.jpg") no-repeat top center;
+    height: 924px;
+}
+
+.module6-jz{
+    margin: 0 auto;
+    height: 924px;
+    width: 1000px;
+    position: relative;
+    z-index: 5;
+}
+.module6-btn1 {
+    position: absolute;
+    cursor: pointer;
+    top: 670px;
+    left: 426px;
+}
+#module7{
+    background: url("../images/module7.jpg") no-repeat top center;
+    height: 1663px;
+}
+
+#module8{
+    background: url("../images/module8.jpg") no-repeat top center;
+    height: 948px;
+}
+.module8-jz{
+    margin: 0 auto;
+    height: 948px;
+    width: 1000px;
+    position: relative;
+    z-index: 5;
+}
+.module8-btn1 {
+    position: absolute;
+    cursor: pointer;
+    top: 830px;
+    left: 346px;
+}
+/*******======中心结束========******/
+
+/*******======foot start========******/
+#wm-foot{background: #000;height: 300px;}
+.foot-main{
+    padding-top: 40px;
+    margin: 0 auto;
+    width: 1000px;
+    text-align: left;
+    position: relative;
+}
+.foot-main p{color: #f1f1f1;margin-bottom: 15px;
+}
+.ewm{
+    position: absolute;
+    top: 40px;
+    right: 100px;
+}
