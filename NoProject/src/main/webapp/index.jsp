@@ -5,6 +5,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>优朗英语</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <!-- 引入 Bootstrap -->
     <link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -75,7 +77,7 @@
     <div id="wm-foot">
         <div class="foot-main">
             <p>优朗国际英语专业从事自主招生面试培训、三位一体面试培训的培训机构  备案号：浙ICP备16047794号-1</p>
-            <p>总部：中国.浙江省.杭州市.拱墅区.湖墅南路260号8层 自主招生全国热线4008008273 关于优朗  站长统计</p>
+            <p>总部：中国.浙江省.杭州市.拱墅区.湖墅南路260号8层 自主招生全国热线4008008273 关于优朗  <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1261544109'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1261544109' type='text/javascript'%3E%3C/script%3E"));</script></p>
             <p>杭州 | 上海 | 北京 | 广州 | 深圳 | 南京 | 南昌 | 长沙 | 武汉 | 合肥 | 济南 | 郑州 | 哈尔滨</p>
             <p>南宁 | 福州 | 太原 | 海口 | 呼和浩特 | 乌鲁木齐 | 沈阳| 西安 | 成都 | 长春 | 天津 | 青岛</p>
             <p class="ewm"><img src="images/ewm.png" alt=""/></p>
