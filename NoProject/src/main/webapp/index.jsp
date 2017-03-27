@@ -81,7 +81,7 @@
     <div class="tool-bar">
         <ul>
             <li class="gun-top">
-                <img src="images/top.png"  />
+                <img src="images/top.png" width="44"/>
             </li>
         </ul>
     </div>
@@ -123,15 +123,15 @@
             switch (i){
                 case 0:$("html,body").animate({scrollTop:0},1000);
                 break;
-                case 1:$("html,body").animate({scrollTop:1543},1000);
+                case 1:$("html,body").animate({scrollTop:$("#module3").offset().top-$("#wm-header").height()},1000);
                 break;
-                case 2:$("html,body").animate({scrollTop:2325},1000);
+                case 2:$("html,body").animate({scrollTop:$("#module4").offset().top-$("#wm-header").height()},1000);
                     break;
-                case 3:$("html,body").animate({scrollTop:3233},1000);
+                case 3:$("html,body").animate({scrollTop:$("#module5").offset().top-$("#wm-header").height()},1000);
                     break;
-                case 4:$("html,body").animate({scrollTop:4016},1000);
+                case 4:$("html,body").animate({scrollTop:$("#module6").offset().top-$("#wm-header").height()},1000);
                     break;
-                case 5:$("html,body").animate({scrollTop:5056},1000);
+                case 5:$("html,body").animate({scrollTop:$("#module7").offset().top-$("#wm-header").height()},1000);
                     break;
             }
         }
@@ -142,26 +142,38 @@
     $(window).scroll(function ()
     {
         var st = $(this).scrollTop();
-//        console.info(st);
+        console.info(st);
+        console.info("rrr>>"+ $("#module7").offset().top);
 //        if(st>=221){
 //            $(".nav-content").addClass('start');
 //        }else{
 //            $(".nav-content").removeClass('start');
 //        }
+        if(st>=221){
+            $("#wm-header").addClass('start');
+        }else{
+            $("#wm-header").removeClass('start');
+        }
+
         switStr(st)
     });
     function switStr(i){
-        if(i<1543){
+        var a = $("#module3").offset().top-$("#wm-header").height();
+        var b = $("#module4").offset().top-$("#wm-header").height();
+        var c = $("#module5").offset().top-$("#wm-header").height();
+        var d = $("#module6").offset().top-$("#wm-header").height();
+        var e = $("#module7").offset().top-$("#wm-header").height();
+        if(i<a){
             commonAct(0);
-        }else if(i>=1543 && i<2325){
+        }else if(i>=a && i<b){
             commonAct(1);
-        }else if(i>=2325 && i<3233){
+        }else if(i>=b && i<c){
             commonAct(2);
-        }else if(i>=3233 && i<4016){
+        }else if(i>=c && i<d){
             commonAct(3);
-        }else if(i>=4016 && i<5056){
+        }else if(i>=d && i<e){
             commonAct(4);
-        }else if(i>=5056  ){
+        }else if(i>=e  ){
             commonAct(5);
         }
     }
@@ -180,4 +192,5 @@
 </script>
 </body>
 </html>
+
 

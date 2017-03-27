@@ -27,10 +27,7 @@ ul li{list-style-type: none}
     top: 0;
     z-index: 100;
 }
-.header-content{
-    background: url("../images/1.png") no-repeat top center;
-    height: 161px;
-}
+
 
 /*
 .header-ul li{
@@ -109,6 +106,10 @@ li.li-last .nav-tx{
 
 
 @media screen and (min-width: 1440px){
+    .header-content{
+        background: url("../images/1.png") no-repeat top center;
+        height: 161px;
+    }
     #module1{
         background: url("../images/module1.jpg") no-repeat top center;
         height: 811px;
@@ -261,6 +262,10 @@ li.li-last .nav-tx{
     }
 }
 @media screen and (max-width: 1440px){
+    .header-content{
+        background: url("../images/1-1.png") no-repeat top center;
+        height: 119px;
+    }
     #module1{
         background: url("../images/module1-1.jpg") no-repeat top center;
         height: 511px;
@@ -357,10 +362,11 @@ li.li-last .nav-tx{
 /*******======foot end========******/
 
 .tool-bar{
-    width: 80px;
+    width: 64px;
     position: fixed;
     right: 40px;
     top:500px;
+    z-index: 1000;
 }
 .tool-bar ul{
     margin: 0;
@@ -368,10 +374,10 @@ li.li-last .nav-tx{
 }
 .tool-bar ul li{
     cursor: pointer;
-    padding-top: 8px;
-    width:80px;
+    padding-top: 10px;
+    width:64px;
     display: block;
-    height: 80px;
+    height: 64px;
     text-align: center;
     border: 1px solid #ccc;
     border-radius: 4px;
