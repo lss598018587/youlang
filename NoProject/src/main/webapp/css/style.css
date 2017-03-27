@@ -43,7 +43,7 @@ ul li{list-style-type: none}
     background: #e5e5e5;
     height:60px ;
 }
-.nav-content-ul-main{float: right;margin-right: 130px;}
+.nav-content-ul-main{float: right;margin-right: 200px;}
 .nav-content-ul-main li{
     position: relative;
     float: left;
