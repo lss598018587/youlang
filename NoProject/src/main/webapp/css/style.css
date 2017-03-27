@@ -62,6 +62,7 @@ ul li{list-style-type: none}
 .bg-hover{
     background: url(../images/liubian.png) no-repeat;
     background-size: 100% 100%;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='file:///F:/test/images/flashbg.jpg',  sizingMethod='scale');
     position: absolute;
     height: 60px;
     width: 80px;
@@ -141,7 +142,7 @@ li.li-last .nav-tx{
 }
 #module3{
     background: url("../images/module3.jpg") no-repeat top center;
-    height: 787px;
+    height: 778px;
 }
 #module4{
     background: url("../images/module4.jpg") no-repeat top center;
@@ -170,7 +171,7 @@ li.li-last .nav-tx{
 
 #module5{
     background: url("../images/module5.jpg") no-repeat top center;
-    height: 773px;
+    height: 782px;
 }
 
 .module5-jz{
@@ -212,7 +213,7 @@ li.li-last .nav-tx{
 }
 #module7{
     background: url("../images/module7.jpg") no-repeat top center;
-    height: 1663px;
+    height: 1659px;
 }
 
 #module8{
