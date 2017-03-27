@@ -17,11 +17,11 @@
 <div id="wm-container">
     <div id="wm-header">
         <div class="header-content">
-            <!--  <ul class="header-ul clearfx">
-                  <li><img src="" /> </li>
-                  <li>优朗国际英语</li>
-                  <li>自主招生</li>
-              </ul>-->
+          <!--  <ul class="header-ul clearfx">
+                <li><img src="" /> </li>
+                <li>优朗国际英语</li>
+                <li>自主招生</li>
+            </ul>-->
 
         </div>
         <div class="nav-content">
@@ -52,7 +52,7 @@
         <div id="module3"></div>
         <div id="module4">
             <div class="module4-jz">
-                <p class="module4-how animated pulse infinite" ><img class="lazy" data-original="images/how.png" src="images/how.png" style="width: 90%; "/></p>
+                <p class="module4-how animated pulse infinite" ><img class="lazy" data-original="images/how.png" src="images/how.png"/></p>
                 <a class="module4-btn1" target="_blank" href="http://kefu.qycn.com/vclient/chat/?websiteid=123779"><img class="lazy" data-original="images/zx1.png" src="images/zx1.png"> </a>
             </div>
         </div>
@@ -67,20 +67,31 @@
                 <a class="module6-btn1" target="_blank" href="http://kefu.qycn.com/vclient/chat/?websiteid=123779"><img class="lazy" data-original="images/zx4.png" src="images/zx4.png"> </a>
             </div>
         </div>
-        <div id="module7"></div>
+        <div id="module7">
+            <div class="module7-jz">
+                <a class="module7-arrow"><img class="lazy" data-original="images/arrow.png" src="images/arrow.png"> </a>
+            </div>
+        </div>
         <div id="module8">
             <div class="module8-jz">
                 <a class="module8-btn1" target="_blank" href="http://kefu.qycn.com/vclient/chat/?websiteid=123779"><img class="lazy" data-original="images/zx1.png" src="images/zx1.png"> </a>
             </div>
         </div>
     </div>
+    <div class="tool-bar">
+        <ul>
+            <li class="gun-top">
+                <img src="images/top.png"  />
+            </li>
+        </ul>
+    </div>
     <div id="wm-foot">
         <div class="foot-main">
             <p>优朗国际英语专业从事自主招生面试培训、三位一体面试培训的培训机构  备案号：浙ICP备16047794号-1</p>
-            <p>总部：中国.浙江省.杭州市.拱墅区.湖墅南路260号8层 自主招生全国热线4008008273 关于优朗  <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1261544109'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1261544109' type='text/javascript'%3E%3C/script%3E"));</script></p>
+            <p>总部：中国.浙江省.杭州市.拱墅区.湖墅南路260号8层 自主招生全国热线4008008273 <a href="http://www.englang.cn/ShowKeCheng.asp?kcid=59" target="_blank">关于优朗</a>  <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1261544109'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1261544109' type='text/javascript'%3E%3C/script%3E"));</script></p>
             <p>杭州 | 上海 | 北京 | 广州 | 深圳 | 南京 | 南昌 | 长沙 | 武汉 | 合肥 | 济南 | 郑州 | 哈尔滨</p>
             <p>南宁 | 福州 | 太原 | 海口 | 呼和浩特 | 乌鲁木齐 | 沈阳| 西安 | 成都 | 长春 | 天津 | 青岛</p>
-            <p class="ewm"><img src="images/ewm.png" alt=""/></p>
+            <p class="ewm"><img src="images/ewm.jpg" alt=""/></p>
         </div>
     </div>
 </div>
@@ -111,9 +122,9 @@
         function switIndex(i){
             switch (i){
                 case 0:$("html,body").animate({scrollTop:0},1000);
-                    break;
+                break;
                 case 1:$("html,body").animate({scrollTop:1543},1000);
-                    break;
+                break;
                 case 2:$("html,body").animate({scrollTop:2325},1000);
                     break;
                 case 3:$("html,body").animate({scrollTop:3233},1000);
@@ -124,16 +135,19 @@
                     break;
             }
         }
+        $(".gun-top").click(function(){
+            $("html,body").animate({scrollTop:0},1000);
+        })
     })
     $(window).scroll(function ()
     {
         var st = $(this).scrollTop();
-        console.info(st);
-        if(st>=221){
-            $(".nav-content").addClass('start');
-        }else{
-            $(".nav-content").removeClass('start');
-        }
+//        console.info(st);
+//        if(st>=221){
+//            $(".nav-content").addClass('start');
+//        }else{
+//            $(".nav-content").removeClass('start');
+//        }
         switStr(st)
     });
     function switStr(i){
@@ -166,3 +180,4 @@
 </script>
 </body>
 </html>
+

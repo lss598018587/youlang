@@ -52,7 +52,7 @@ ul li{list-style-type: none}
 .nav-content-ul-main li .nav-tx{
     text-align: center;
     border-right:1px solid #111111;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 23px;
     line-height: 16px;
     position: relative;
@@ -95,143 +95,245 @@ li.li-last .nav-tx{
     min-width: 1100px;
     margin: 0 auto;
 }
-#module1{
-    background: url("../images/module1.jpg") no-repeat top center;
-    height: 810px;
-}
-#module2{
-    background: url("../images/module2.jpg") no-repeat top center;
-    height: 716px;
-}
-.module2-jz{
-    margin: 0 auto;
-    height: 716px;
-    width: 1000px;
-    position: relative;
-    z-index: 5;
-}
-.wenhao1{
-    position: absolute;
-    cursor: pointer;
-    top: 385px;
-    left: 76px;
-}
-.wenhao2{
-    position: absolute;
-    cursor: pointer;
-    top: 385px;
-    left: 416px;
-}
-.wenhao3{
-    position: absolute;
-    cursor: pointer;
-    top: 385px;
-    right: 186px;
-}
-.wenhao4{
-    position: absolute;
-    cursor: pointer;
-    top: 385px;
-    right: -106px;
-}
-.module2-btn1 {
-    position: absolute;
-    cursor: pointer;
-    top: 510px;
-    left: 346px;
-}
-#module3{
-    background: url("../images/module3.jpg") no-repeat top center;
-    height: 778px;
-}
-#module4{
-    background: url("../images/module4.jpg") no-repeat top center;
-    height: 939px;
-}
 
-.module4-jz{
-    margin: 0 auto;
-    height: 939px;
-    width: 1000px;
-    position: relative;
-    z-index: 5;
-}
-.module4-how{
-    position: absolute;
-    cursor: pointer;
-    top: 220px;
-    left: 346px;
-}
-.module4-btn1 {
-    position: absolute;
-    cursor: pointer;
-    top: 740px;
-    left: 346px;
-}
 
-#module5{
-    background: url("../images/module5.jpg") no-repeat top center;
-    height: 782px;
-}
 
-.module5-jz{
-    margin: 0 auto;
-    height: 778px;
-    width: 1000px;
-    position: relative;
-    z-index: 5;
-}
-.module5-btn1 {
-    position: absolute;
-    cursor: pointer;
-    top: 570px;
-    left: 156px;
-}
-.module5-btn2 {
-    position: absolute;
-    cursor: pointer;
-    top: 570px;
-    right: 156px;
-}
-#module6{
-    background: url("../images/module6.jpg") no-repeat top center;
-    height: 924px;
-}
 
-.module6-jz{
-    margin: 0 auto;
-    height: 924px;
-    width: 1000px;
-    position: relative;
-    z-index: 5;
-}
-.module6-btn1 {
-    position: absolute;
-    cursor: pointer;
-    top: 670px;
-    left: 426px;
-}
-#module7{
-    background: url("../images/module7.jpg") no-repeat top center;
-    height: 1659px;
-}
 
-#module8{
-    background: url("../images/module8.jpg") no-repeat top center;
-    height: 948px;
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1440px){
+    #module1{
+        background: url("../images/module1.jpg") no-repeat top center;
+        height: 811px;
+    }
+    #module2{
+        background: url("../images/module2.jpg") no-repeat top center;
+        height: 718px;
+    }
+    .module2-jz{
+        margin: 0 auto;
+        height: 716px;
+        width: 1000px;
+        position: relative;
+        z-index: 5;
+    }
+    .wenhao1{
+        position: absolute;
+        cursor: pointer;
+        top: 385px;
+        left: 76px;
+    }
+    .wenhao2{
+        position: absolute;
+        cursor: pointer;
+        top: 385px;
+        left: 416px;
+    }
+    .wenhao3{
+        position: absolute;
+        cursor: pointer;
+        top: 385px;
+        right: 186px;
+    }
+    .wenhao4{
+        position: absolute;
+        cursor: pointer;
+        top: 385px;
+        right: -106px;
+    }
+    .module2-btn1 {
+        position: absolute;
+        cursor: pointer;
+        top: 510px;
+        left: 346px;
+    }
+    #module3{
+        background: url("../images/module3.jpg") no-repeat top center;
+        height: 778px;
+    }
+    #module4{
+        background: url("../images/module4.jpg") no-repeat top center;
+        height: 939px;
+    }
+    .module4-jz{
+        margin: 0 auto;
+        height: 939px;
+        width: 1000px;
+        position: relative;
+        z-index: 5;
+    }
+    .module4-how{
+        position: absolute;
+        cursor: pointer;
+        top: 220px;
+        left: 346px;
+    }
+    .module4-how img{width: 90%;}
+    .module4-btn1 {
+        position: absolute;
+        cursor: pointer;
+        top: 740px;
+        left: 346px;
+    }
+    #module5{
+        background: url("../images/module5.jpg") no-repeat top center;
+        height: 782px;
+    }
+
+    .module5-jz{
+        margin: 0 auto;
+        height: 778px;
+        width: 1000px;
+        position: relative;
+        z-index: 5;
+    }
+    .module5-btn1 {
+        position: absolute;
+        cursor: pointer;
+        top: 570px;
+        left: 156px;
+    }
+    .module5-btn2 {
+        position: absolute;
+        cursor: pointer;
+        top: 570px;
+        right: 156px;
+    }
+
+    #module6{
+        background: url("../images/module6.jpg") no-repeat top center;
+        height: 924px;
+    }
+    .module6-jz{
+        margin: 0 auto;
+        height: 924px;
+        width: 1000px;
+        position: relative;
+        z-index: 5;
+    }
+    .module6-btn1 {
+        position: absolute;
+        cursor: pointer;
+        top: 670px;
+        left: 426px;
+    }
+    #module7{
+        background: url("../images/module7.jpg") no-repeat top center;
+        height: 1659px;
+    }
+    .module7-jz{
+        margin: 0 auto;
+        height: 1659px;
+        width: 1000px;
+        position: relative;
+        z-index: 5;
+    }
+    .module7-arrow {
+        position: absolute;
+        cursor: pointer;
+        top: 660px;
+        left: 476px;
+    }
+
+    #module8{
+        background: url("../images/module8.jpg") no-repeat top center;
+        height: 948px;
+    }
+    .module8-jz{
+        margin: 0 auto;
+        height: 948px;
+        width: 1000px;
+        position: relative;
+        z-index: 5;
+    }
+    .module8-btn1 {
+        position: absolute;
+        cursor: pointer;
+        top: 830px;
+        left: 346px;
+    }
 }
-.module8-jz{
-    margin: 0 auto;
-    height: 948px;
-    width: 1000px;
-    position: relative;
-    z-index: 5;
-}
-.module8-btn1 {
-    position: absolute;
-    cursor: pointer;
-    top: 830px;
-    left: 346px;
+@media screen and (max-width: 1440px){
+    #module1{
+        background: url("../images/module1-1.jpg") no-repeat top center;
+        height: 511px;
+    }
+    #module2{
+        background: url("../images/module2-1.jpg") no-repeat top center;
+        height: 518px;
+    }
+    .module2-jz{  margin: 0 auto;  height: 518px;  width: 1000px;  position: relative;  z-index: 5;  }
+    .wenhao1{  position: absolute;  cursor: pointer;  top: 290px;  left: 206px;  }
+    .wenhao2{  position: absolute;  cursor: pointer;  top: 290px;  left: 444px;  }
+    .wenhao3{  position: absolute;  cursor: pointer;  top: 290px;  right: 248px;  }
+    .wenhao4{  position: absolute;  cursor: pointer;  top: 290px;  right: 26px;  }
+    .module2-btn1 {  position: absolute;  cursor: pointer;  top: 390px;  left: 396px;  }
+    .wenhao1 img,.wenhao2 img,.wenhao3 img,.wenhao4 img,.module2-btn1 img{width: 60%;}
+
+    #module3{
+        background: url("../images/module3-1.jpg") no-repeat top center;
+        height: 578px;
+    }
+    #module4{
+        background: url("../images/module4-1.jpg") no-repeat top center;
+        height: 739px;
+    }
+    .module4-jz{  margin: 0 auto;  height: 739px;  width: 1000px;  position: relative;  z-index: 5;  }
+    .module4-how{  position: absolute;  cursor: pointer;  top: 180px;  left: 386px;  }
+    .module4-btn1 {  position: absolute;  cursor: pointer;  top: 590px;  left: 386px;  }
+    .module4-how img{width: 70%}
+    .module4-btn1 img {width: 78.7%}
+
+
+    #module5{
+        background: url("../images/module5-1.jpg") no-repeat top center;
+        height: 582px;
+    }
+    .module5-jz{margin: 0 auto;height: 582px;width: 1000px;position: relative;  z-index: 5;  }
+    .module5-btn1 {  position: absolute;  cursor: pointer;  top: 420px;  left: 226px;  }
+    .module5-btn2 {  position: absolute;  cursor: pointer;  top: 420px;  right: 196px;  }
+    .module5-btn1 img ,.module5-btn2 img{width:74.4% }
+
+    #module6{
+        background: url("../images/module6-1.jpg") no-repeat top center;
+        height: 624px;
+    }
+    .module6-jz{  margin: 0 auto;  height: 624px;  width: 1000px;  position: relative;  z-index: 5;  }
+    .module6-btn1 {  position: absolute;  cursor: pointer;  top: 430px;  left: 446px;  }
+    .module6-btn1 img {width:67.5% }
+    #module7{
+        background: url("../images/module7-1.jpg") no-repeat top center;
+        height: 1359px;
+    }
+    .module7-jz{  margin: 0 auto;  height: 1359px;  width: 1000px;  position: relative;  z-index: 5;  }
+    .module7-arrow {  position: absolute;  cursor: pointer;  top: 540px;  left: 476px;  }
+    .module7-arrow img {width: 82%;}
+    #module8{
+        background: url("../images/module8-1.jpg") no-repeat top center;
+        height: 748px;
+    }
+
+    .module8-jz{
+        margin: 0 auto;
+        height: 748px;
+        width: 1000px;
+        position: relative;
+        z-index: 5;
+    }
+    .module8-btn1 {
+        position: absolute;
+        cursor: pointer;
+        top: 650px;
+        left: 416px;
+    }
+    .module8-btn1 img{width: 80%}
 }
 /*******======中心结束========******/
 
@@ -244,10 +346,34 @@ li.li-last .nav-tx{
     text-align: left;
     position: relative;
 }
-.foot-main p{color: #f1f1f1;margin-bottom: 15px;
+.foot-main p{color: #f1f1f1;margin-bottom: 15px;font-size: 16px;line-height:16px;margin-bottom: 20px;
 }
 .ewm{
     position: absolute;
     top: 40px;
-    right: 100px;
+    right: 70px;
 }
+
+/*******======foot end========******/
+
+.tool-bar{
+    width: 80px;
+    position: fixed;
+    right: 40px;
+    top:500px;
+}
+.tool-bar ul{
+    margin: 0;
+    padding: 0;
+}
+.tool-bar ul li{
+    cursor: pointer;
+    padding-top: 8px;
+    width:80px;
+    display: block;
+    height: 80px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.tool-bar ul li:hover{background: #e5e5e5}
