@@ -268,19 +268,19 @@ li.li-last .nav-tx{
     }
     #module1{
         background: url("../images/module1-1.jpg") no-repeat top center;
-        height: 511px;
+        height: 620px;
     }
     #module2{
         background: url("../images/module2-1.jpg") no-repeat top center;
-        height: 518px;
+        height: 550px;
     }
-    .module2-jz{  margin: 0 auto;  height: 518px;  width: 1000px;  position: relative;  z-index: 5;  }
-    .wenhao1{  position: absolute;  cursor: pointer;  top: 290px;  left: 206px;  }
-    .wenhao2{  position: absolute;  cursor: pointer;  top: 290px;  left: 444px;  }
+    .module2-jz{  margin: 0 auto;  height: 550px;  width: 1000px;  position: relative;  z-index: 5;  }
+    .wenhao1{  position: absolute;  cursor: pointer;  top: 290px;  left: 186px;  }
+    .wenhao2{  position: absolute;  cursor: pointer;  top: 290px;  left: 424px;  }
     .wenhao3{  position: absolute;  cursor: pointer;  top: 290px;  right: 248px;  }
-    .wenhao4{  position: absolute;  cursor: pointer;  top: 290px;  right: 26px;  }
+    .wenhao4{  position: absolute;  cursor: pointer;  top: 290px;  right: 16px;  }
     .module2-btn1 {  position: absolute;  cursor: pointer;  top: 390px;  left: 396px;  }
-    .wenhao1 img,.wenhao2 img,.wenhao3 img,.wenhao4 img,.module2-btn1 img{width: 60%;}
+    .wenhao1 img,.wenhao2 img,.wenhao3 img,.wenhao4 img,.module2-btn1 img{width: 76.6%;}
 
     #module3{
         background: url("../images/module3-1.jpg") no-repeat top center;
@@ -308,10 +308,10 @@ li.li-last .nav-tx{
 
     #module6{
         background: url("../images/module6-1.jpg") no-repeat top center;
-        height: 624px;
+        height: 708px;
     }
-    .module6-jz{  margin: 0 auto;  height: 624px;  width: 1000px;  position: relative;  z-index: 5;  }
-    .module6-btn1 {  position: absolute;  cursor: pointer;  top: 430px;  left: 446px;  }
+    .module6-jz{  margin: 0 auto;  height: 708px;  width: 1000px;  position: relative;  z-index: 5;  }
+    .module6-btn1 {  position: absolute;  cursor: pointer;  top: 500px;  left: 446px;  }
     .module6-btn1 img {width:67.5% }
     #module7{
         background: url("../images/module7-1.jpg") no-repeat top center;

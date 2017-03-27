@@ -3,7 +3,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>优朗英语</title>
+    <title>自主招生面试，三位一体面试培训，自主招生辅导培训哪里好-优朗英语培训学校</title>
+    <meta name="description" content="优朗国际英语是一家专业从事自主招生面试培训及三位一体面试培训的培训学校，面试出题考官亲临授课，通过率高达90%，全国自主招生面试热线4008008273" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
