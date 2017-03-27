@@ -60,9 +60,9 @@ ul li{list-style-type: none}
     cursor: pointer;
 }
 .bg-hover{
-    background: url(../images/liubian.png) no-repeat;
+    background: url(/images/liubian.png) no-repeat;
     background-size: 100% 100%;
-    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='file:///F:/test/images/flashbg.jpg',  sizingMethod='scale');
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/liubian.png',  sizingMethod='scale');
     position: absolute;
     height: 60px;
     width: 80px;
